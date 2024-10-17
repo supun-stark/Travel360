@@ -49,7 +49,7 @@ const PopularDestinations = () => {
   return (
     <div className='h-auto main-container w-[88%] m-auto'>
         <div className="my-12 text-center title-section">
-            <h1 className="text-2xl font-bold tracking-wide font-subfont">Popular Destinations</h1>
+            <h1 className="text-2xl font-bold tracking-wide font-subfont text-[#004170]">Popular Destinations</h1>
         </div>
 
         <div className="grid grid-cols-1 gap-8 content-section sm:grid-cols-2 md:grid-cols-3">

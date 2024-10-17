@@ -31,7 +31,7 @@ const Services = () => {
   return (
     <div className='h-auto main-container w-[88%] m-auto'>
     <div className="text-center my-14 title-section">
-        <h1 className="text-2xl font-bold tracking-wide font-subfont">Our Services</h1>
+        <h1 className="text-2xl font-bold tracking-wide font-subfont text-[#004170]">Our Services</h1>
     </div>
 
     <div className="grid grid-cols-1 gap-6 content-section sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
@@ -43,7 +43,7 @@ const Services = () => {
 
                 <div className="flex flex-col items-center justify-center text-section">
                     <h3 className="mb-3 text-xl font-semibold text-black font-subfont">{service.title}</h3>
-                    <p className="text-[17px] text-[#004170]">{service.description}</p>
+                    <p className="text-[17px] text-[#004170] text-center p-2">{service.description}</p>
                 </div>
             </div>
 

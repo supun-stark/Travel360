@@ -2,6 +2,7 @@ import React from 'react'
 import heroImage from '../assets/images/travel.jpg';
 import PopularDestinations from '../components/PopularDestinations';
 import Services from '../components/Services';
+import Clients from '../components/Clients';
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
     </div>
     <PopularDestinations/>
     <Services/>
+    <Clients/>
     </>
   )
 }
