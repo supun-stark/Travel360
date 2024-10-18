@@ -3,6 +3,7 @@ import heroImage from '../assets/images/travel.jpg';
 import PopularDestinations from '../components/PopularDestinations';
 import Services from '../components/Services';
 import Clients from '../components/Clients';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
     <PopularDestinations/>
     <Services/>
     <Clients/>
+    <Footer/>
     </>
   )
 }
